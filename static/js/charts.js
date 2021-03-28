@@ -90,6 +90,7 @@ function buildCharts(sample) {
       paper_bgcolor: 'lightgray',
       plot_bgcolor: 'lightgray',
       xaxis: {
+        title: "Number of Bacteria Cultures",
         linecolor: "black",
         linewidth: 1,
         mirror: true 
@@ -124,7 +125,9 @@ function buildCharts(sample) {
       title: "Bacteria Cultures Per Sample",
       "titlefont": {
       "size": 24},
-      xaxis: {title: "OTU ID"},
+      xaxis: {
+        title: "OTU ID",
+        titleFontStyle: "bold"},
       showlegend: false,
       paper_bgcolor: 'lightgray',
       plot_bgcolor: 'lightgray'
